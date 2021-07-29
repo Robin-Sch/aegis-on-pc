@@ -1,0 +1,17 @@
+{
+	"name": "aegis-on-pc",
+	"version": "1.0.0",
+	"description": "Generate a Aegis TOTP code on your PC",
+	"main": "index.js",
+	"scripts": {
+		"start": "node ."
+	},
+	"keywords": ["mfa", "2fa", "totp", "aegis"],
+	"author": "Robin",
+	"license": "MIT",
+	"dependencies": {
+		"authenticator": "^1.1.5",
+		"fs": "^0.0.1-security",
+		"prompts": "^2.4.1"
+	}
+}
